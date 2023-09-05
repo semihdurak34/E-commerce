@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-text">E-Commerce</h1>
+      <input type="text" class="header-input" placeholder="Ürün Ara" />
+      <div class="buttons">
+        <button class="button-sepet" id="sepet">Sepet</button>
+        <button class="button-kayıtol">Kayıt Ol</button>
+        <button class="button-girisyap">Giriş Yap</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Categories -->
+      <div class="category-wrapper">
+        <h1 class="category-text">Kategoriler</h1>
+        <div class="category-list">
+          <div class="category-card">
+            <!-- <img
+              src="https://api.lorem.space/image/face?w=150&h=150"
+              alt="pic"
+            />
+            <span>Maria Gomez</span> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Products -->
+      <div class="product-wrapper">
+        <h1>Ürünler</h1>
+        <div class="product-list">
+          <!--  <div class="product">
+            <img src="./image/shoes.jpeg" alt="" />
+            <p>Fanstastic Wooden Shoes</p>
+            <p>Shoes</p>
+            <div class="info-table">
+              <span>$905</span>
+              <button>Sepete Ekle</button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </main>
+    <div class="modal-wrapper" id="modal-id">
+      <div class="modal">
+        <img id="close" src="./image/close.png" alt="" />
+        <div class="modal-list"></div>
+        <p class="fiyat">Total: $<span id="totalPrice"></span></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
